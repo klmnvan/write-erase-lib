@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08B3C91D-F017-4AE7-97C2-5E7F6EA5ADE5}|..\\TestProject\\TestProject.csproj|d:\\vs prodjects\\write-erase-lib\\testproject\\unittestcalculationclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D2C53D-957F-459B-8E56-74470050F4B8}|SF2022User{NN}Lib.csproj|d:\\vs prodjects\\write-erase-lib\\sf2022user{nn}lib\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D2C53D-957F-459B-8E56-74470050F4B8}|SF2022User{NN}Lib.csproj|solutionrelative:calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B3C91D-F017-4AE7-97C2-5E7F6EA5ADE5}|..\\TestProject\\TestProject.csproj|d:\\vs prodjects\\write-erase-lib\\testproject\\testproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D2C53D-957F-459B-8E56-74470050F4B8}|SF2022User{NN}Lib.csproj|d:\\vs prodjects\\write-erase-lib\\sf2022user{nn}lib\\sf2022user{nn}lib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6D2C53D-957F-459B-8E56-74470050F4B8}|SF2022User{NN}Lib.csproj|solutionrelative:sf2022user{nn}lib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VS prodjects\\TestProject\\UnitTestCalculationClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 479,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestProject",
+              "DocumentMoniker": "D:\\VS prodjects\\write-erase-lib\\TestProject\\TestProject.csproj",
+              "RelativeDocumentMoniker": "..\\TestProject\\TestProject.csproj",
+              "ToolTip": "D:\\VS prodjects\\write-erase-lib\\TestProject\\TestProject.csproj",
+              "RelativeToolTip": "..\\TestProject\\TestProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-15T01:11:09.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SF2022User{NN}Lib",
+              "DocumentMoniker": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\SF2022User{NN}Lib.csproj",
+              "RelativeDocumentMoniker": "SF2022User{NN}Lib.csproj",
+              "ToolTip": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\SF2022User{NN}Lib.csproj",
+              "RelativeToolTip": "SF2022User{NN}Lib.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-15T01:11:08.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTestCalculationClass.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\write-erase-lib\\TestProject\\UnitTestCalculationClass.cs",
+              "RelativeDocumentMoniker": "..\\TestProject\\UnitTestCalculationClass.cs",
+              "ToolTip": "D:\\VS prodjects\\write-erase-lib\\TestProject\\UnitTestCalculationClass.cs",
+              "RelativeToolTip": "..\\TestProject\\UnitTestCalculationClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T01:11:07.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTestCalculationClass.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\TestProject\\UnitTestCalculationClass.cs",
+              "RelativeDocumentMoniker": "..\\..\\TestProject\\UnitTestCalculationClass.cs",
+              "ToolTip": "D:\\VS prodjects\\TestProject\\UnitTestCalculationClass.cs",
+              "RelativeToolTip": "..\\..\\TestProject\\UnitTestCalculationClass.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T00:19:30.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculations.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\Calculations.cs",
+              "RelativeDocumentMoniker": "Calculations.cs",
+              "ToolTip": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\Calculations.cs",
+              "RelativeToolTip": "Calculations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:51:48.385Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
