@@ -4,7 +4,6 @@
     {
         public string[] AvailablePeriods(TimeSpan[] startTimes, int[] durations, TimeSpan beginWorkingTime, TimeSpan endWorkingTime, int consultationTime)
         {
-            // Проверка на некорректные входные данные
             if (beginWorkingTime >= endWorkingTime)
                 return new[] { "Начало рабочего дня должно быть раньше его окончания." };
 
@@ -14,44 +13,45 @@
             if (startTimes == null || durations == null || startTimes.Length != durations.Length)
                 return new[] { "Ошибка: массивы startTimes и durations должны быть не null и одинаковой длины." };
 
-            // Создаем список занятых интервалов
-            var busyIntervals = new List<(TimeSpan Start, TimeSpan End)>();
-            for (int i = 0; i < startTimes.Length; i++)
-            {
-                busyIntervals.Add((startTimes[i], startTimes[i].Add(TimeSpan.FromMinutes(durations[i]))));
-            }
-
-            // Сортируем занятые интервалы по времени начала
+            var busyIntervals = CreateBusyIntervals(startTimes, durations);
             busyIntervals.Sort((a, b) => a.Start.CompareTo(b.Start));
 
-            // Генерация всех возможных интервалов в рабочее время
-            var allIntervals = new List<string>();
+            return GenerateFreeIntervals(busyIntervals, beginWorkingTime, endWorkingTime, consultationTime);
+        }
+
+        private List<(TimeSpan Start, TimeSpan End)> CreateBusyIntervals(TimeSpan[] startTimes, int[] durations)
+        {
+            var intervals = new List<(TimeSpan Start, TimeSpan End)>();
+            for (int i = 0; i < startTimes.Length; i++)
+            {
+                intervals.Add((startTimes[i], startTimes[i].Add(TimeSpan.FromMinutes(durations[i]))));
+            }
+            return intervals;
+        }
+
+        private string[] GenerateFreeIntervals(List<(TimeSpan Start, TimeSpan End)> busyIntervals, TimeSpan beginWorkingTime, TimeSpan endWorkingTime, int consultationTime)
+        {
+            var freeIntervals = new List<string>();
             var currentTime = beginWorkingTime;
 
             while (currentTime.Add(TimeSpan.FromMinutes(consultationTime)) <= endWorkingTime)
             {
                 var intervalEnd = currentTime.Add(TimeSpan.FromMinutes(consultationTime));
 
-                // Проверяем, не пересекается ли текущий интервал с занятыми
-                bool isFree = true;
-                foreach (var busy in busyIntervals)
+                if (!IsIntervalBusy(currentTime, intervalEnd, busyIntervals))
                 {
-                    if (currentTime < busy.End && intervalEnd > busy.Start)
-                    {
-                        isFree = false;
-                        break;
-                    }
-                }
-
-                if (isFree)
-                {
-                    allIntervals.Add($"{currentTime:hh\\:mm}-{intervalEnd:hh\\:mm}");
+                    freeIntervals.Add($"{currentTime:hh\\:mm}-{intervalEnd:hh\\:mm}");
                 }
 
                 currentTime = currentTime.Add(TimeSpan.FromMinutes(consultationTime));
             }
 
-            return allIntervals.ToArray();
+            return freeIntervals.ToArray();
+        }
+
+        private bool IsIntervalBusy(TimeSpan start, TimeSpan end, List<(TimeSpan Start, TimeSpan End)> busyIntervals)
+        {
+            return busyIntervals.Any(busy => start < busy.End && end > busy.Start);
         }
     }
 }
