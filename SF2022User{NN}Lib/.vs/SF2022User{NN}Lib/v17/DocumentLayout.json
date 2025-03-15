@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08B3C91D-F017-4AE7-97C2-5E7F6EA5ADE5}|..\\TestProject\\TestProject.csproj|d:\\vs prodjects\\write-erase-lib\\testproject\\unittestcalculationclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6D2C53D-957F-459B-8E56-74470050F4B8}|SF2022User{NN}Lib.csproj|d:\\vs prodjects\\write-erase-lib\\sf2022user{nn}lib\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6D2C53D-957F-459B-8E56-74470050F4B8}|SF2022User{NN}Lib.csproj|solutionrelative:calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B3C91D-F017-4AE7-97C2-5E7F6EA5ADE5}|..\\TestProject\\TestProject.csproj|d:\\vs prodjects\\write-erase-lib\\testproject\\unittestcalculationclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08B3C91D-F017-4AE7-97C2-5E7F6EA5ADE5}|..\\TestProject\\TestProject.csproj|d:\\vs prodjects\\write-erase-lib\\testproject\\testproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -27,7 +27,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 479,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,32 +36,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TestProject",
+              "Title": "TestProject.csproj",
               "DocumentMoniker": "D:\\VS prodjects\\write-erase-lib\\TestProject\\TestProject.csproj",
               "RelativeDocumentMoniker": "..\\TestProject\\TestProject.csproj",
               "ToolTip": "D:\\VS prodjects\\write-erase-lib\\TestProject\\TestProject.csproj",
               "RelativeToolTip": "..\\TestProject\\TestProject.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-15T01:11:09.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T01:11:09.443Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SF2022User{NN}Lib",
+              "Title": "SF2022User{NN}Lib.csproj",
               "DocumentMoniker": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\SF2022User{NN}Lib.csproj",
               "RelativeDocumentMoniker": "SF2022User{NN}Lib.csproj",
               "ToolTip": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\SF2022User{NN}Lib.csproj",
               "RelativeToolTip": "SF2022User{NN}Lib.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-15T01:11:08.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T01:11:08.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UnitTestCalculationClass.cs",
               "DocumentMoniker": "D:\\VS prodjects\\write-erase-lib\\TestProject\\UnitTestCalculationClass.cs",
               "RelativeDocumentMoniker": "..\\TestProject\\UnitTestCalculationClass.cs",
@@ -85,13 +83,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Calculations.cs",
               "DocumentMoniker": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\Calculations.cs",
               "RelativeDocumentMoniker": "Calculations.cs",
               "ToolTip": "D:\\VS prodjects\\write-erase-lib\\SF2022User{NN}Lib\\Calculations.cs",
               "RelativeToolTip": "Calculations.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T23:51:48.385Z",
               "EditorCaption": ""
